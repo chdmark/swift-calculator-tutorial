@@ -1,0 +1,5 @@
+version: "Swift version 3.0-dev (LLVM a7663bb722, Clang 4ca3c7fa28, Swift 1c2f40e246)"
+options: "37b4244f02eb500ec958cc399f6b9628"
+build_time: [510279348, 85599000]
+inputs:
+  "/home/chris/tutorials/swift-calculator-tutorial/Sources/main.swift": [510279344, 0]

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/chris/tutorials/swift-calculator-tutorial/.build/debug/swift-calculator-tutorial.o/swift-calculator-tutorial/master.swiftdeps"
+  },
+  "/home/chris/tutorials/swift-calculator-tutorial/Sources/main.swift": {
+    "dependencies": "/home/chris/tutorials/swift-calculator-tutorial/.build/debug/swift-calculator-tutorial.o/swift-calculator-tutorial/main.d",
+    "object": "/home/chris/tutorials/swift-calculator-tutorial/.build/debug/swift-calculator-tutorial.o/Sources/main.swift.o",
+    "swiftmodule": "/home/chris/tutorials/swift-calculator-tutorial/.build/debug/swift-calculator-tutorial.o/swift-calculator-tutorial/main~partial.swiftmodule",
+    "swift-dependencies": "/home/chris/tutorials/swift-calculator-tutorial/.build/debug/swift-calculator-tutorial.o/swift-calculator-tutorial/main.swiftdeps"
+  }
+}

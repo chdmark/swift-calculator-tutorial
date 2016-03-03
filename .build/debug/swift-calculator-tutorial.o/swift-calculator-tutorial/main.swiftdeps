@@ -1,0 +1,123 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TipCalculator"
+- "tipCalc"
+provides-nominal:
+- "C23swiftcalculatortutorial13TipCalculator"
+provides-member:
+- ["C23swiftcalculatortutorial13TipCalculator", ""]
+depends-top-level:
+- !private "+"
+- "FloatLiteralType"
+- !private "*"
+- !private "/"
+- "Double"
+- !private "StringLiteralType"
+- "tipCalc"
+- !private "IntegerLiteralType"
+- !private "print"
+- "TipCalculator"
+depends-member:
+- !private ["Ps9AnyObject", "calcTipWithTipPct"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "printPossibleTips"]
+- !private ["Ps9AnyObject", "subtotal"]
+- !private ["Ps9AnyObject", "taxPct"]
+- !private ["Ps9AnyObject", "total"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "deinit"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- ["C23swiftcalculatortutorial13TipCalculator", "Double"]
+- ["C23swiftcalculatortutorial13TipCalculator", "calcTipWithTipPct"]
+- ["C23swiftcalculatortutorial13TipCalculator", "deinit"]
+- ["C23swiftcalculatortutorial13TipCalculator", "init"]
+- !private ["C23swiftcalculatortutorial13TipCalculator", "print"]
+- ["C23swiftcalculatortutorial13TipCalculator", "printPossibleTips"]
+- ["C23swiftcalculatortutorial13TipCalculator", "subtotal"]
+- ["C23swiftcalculatortutorial13TipCalculator", "taxPct"]
+- ["C23swiftcalculatortutorial13TipCalculator", "total"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps14MirrorPathType"
+- !private "Ps16OutputStreamType"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- "C23swiftcalculatortutorial13TipCalculator"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+depends-dynamic-lookup:
+depends-external:
+- "/home/chris/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/chris/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/lib/swift/shims/Visibility.h"
+- "/home/chris/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/chris/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/chris/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/chris/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/chris/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/chris/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/chris/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
+- "/home/chris/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/chris/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/chris/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/chris/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/chris/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/lib/swift/shims/module.map"
+interface-hash: "a6fd6d23b4510d0854a993ffd07399fa"
