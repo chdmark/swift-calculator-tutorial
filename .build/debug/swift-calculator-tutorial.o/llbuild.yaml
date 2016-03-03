@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<swift-calculator-tutorial>]
+  swift-calculator-tutorial: [<swift-calculator-tutorial>]
+
+commands:
+  <swift-calculator-tutorial-swiftc>:
+    tool: swift-compiler
+    executable: "/home/chris/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/bin/swiftc"
+    inputs: ["/home/chris/tutorials/swift-calculator-tutorial/Sources/main.swift"]
+    outputs: ["<swift-calculator-tutorial-swiftc>","/home/chris/tutorials/swift-calculator-tutorial/.build/debug/swiftcalculatortutorial.swiftmodule","/home/chris/tutorials/swift-calculator-tutorial/.build/debug/swift-calculator-tutorial.o/Sources/main.swift.o"]
+    module-name: "swiftcalculatortutorial"
+    module-output-path: "/home/chris/tutorials/swift-calculator-tutorial/.build/debug/swiftcalculatortutorial.swiftmodule"
+    is-library: false
+    sources: ["/home/chris/tutorials/swift-calculator-tutorial/Sources/main.swift"]
+    objects: ["/home/chris/tutorials/swift-calculator-tutorial/.build/debug/swift-calculator-tutorial.o/Sources/main.swift.o"]
+    import-paths: ["/home/chris/tutorials/swift-calculator-tutorial/.build/debug"]
+    temps-path: "/home/chris/tutorials/swift-calculator-tutorial/.build/debug/swift-calculator-tutorial.o/swift-calculator-tutorial"
+    other-args: ["-j8","-Onone","-g","-I","/usr/local/include","-D","SWIFT_PACKAGE"]
+  <swift-calculator-tutorial>:
+    tool: shell
+    inputs: ["<swift-calculator-tutorial-swiftc>","/home/chris/tutorials/swift-calculator-tutorial/.build/debug/swift-calculator-tutorial.o/Sources/main.swift.o"]
+    outputs: ["<swift-calculator-tutorial>","/home/chris/tutorials/swift-calculator-tutorial/.build/debug/swift-calculator-tutorial"]
+    args: ["/home/chris/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/bin/swiftc","-o","/home/chris/tutorials/swift-calculator-tutorial/.build/debug/swift-calculator-tutorial","/home/chris/tutorials/swift-calculator-tutorial/.build/debug/swift-calculator-tutorial.o/Sources/main.swift.o","-g","-L/usr/local/lib"]
+    description: "Linking Executable:  .build/debug/swift-calculator-tutorial"
